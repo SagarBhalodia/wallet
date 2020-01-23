@@ -1,0 +1,36 @@
+{
+    "name": "wallet",
+    "version": "1.0.0",
+    "description": "Wallet me help to do expense management.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SagarBhalodia/wallet.git"
+    },
+    "keywords": [
+      "123"
+    ],
+    "author": "sagarbhalodia",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/SagarBhalodia/wallet/issues"
+    },
+    "homepage": "https://github.com/SagarBhalodia/wallet#readme",
+    "dependencies": {
+        "ace": "^1.3.0",
+        "ace-builds": "^1.2.9",
+        "angular": "^1.6.6",
+        "angular-summernote": "^0.8.1",
+        "angular-ui-ace": "^0.2.3",
+        "angular-ui-router": "^0.4.3",
+        "bootstrap": "^4.0.0-beta.2",
+        "jquery": "3.0.0",
+        "ng-tags-input": "^3.2.0",
+        "popper.js": "^1.12.3",
+        "summernote": "^0.8.8",
+    }
+}
+

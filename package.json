@@ -1,0 +1,31 @@
+{
+  "name": "wallet",
+  "version": "1.0.0",
+  "description": "Wallet me help to do expense management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SagarBhalodia/wallet.git"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "sagarbhalodia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SagarBhalodia/wallet/issues"
+  },
+  "homepage": "https://github.com/SagarBhalodia/wallet#readme",
+  "dependencies": {
+    "date-utils": "^1.2.21",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-sass": "^4.0.2",
+    "hbs": "^4.1.0",
+    "mongoose": "^5.8.9"
+  }
+}

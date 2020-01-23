@@ -1,0 +1,160 @@
+.home-page-cn .home-p-c-box {
+  background-image: url("/uplode/image/1.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center; }
+  .home-page-cn .home-p-c-box .home-p-c-b-content {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    .home-page-cn .home-p-c-box .home-p-c-b-content .home-p-c-b-title {
+      color: #fff;
+      font-weight: 600;
+      font-size: 4.5rem; }
+    .home-page-cn .home-p-c-box .home-p-c-b-content .home-p-c-b-subtitle {
+      font-size: 2.5rem;
+      color: #fff; }
+      .home-page-cn .home-p-c-box .home-p-c-b-content .home-p-c-b-subtitle .home-p-c-b-items {
+        display: none; }
+
+.header-page-cn {
+  transition: all .5s ease-in-out;
+  background-color: transparent;
+  padding-top: 1.563rem;
+  padding-bottom: 1.563rem;
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  /*--/ Hamburger Navbar /--*/ }
+  .header-page-cn .nav-item {
+    position: relative;
+    margin-right: 10px;
+    padding-left: 0; }
+  .header-page-cn .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center; }
+    .header-page-cn .nav-link:before {
+      content: '';
+      position: absolute;
+      margin-left: 0px;
+      width: 0%;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      transition: all 500ms ease;
+      background-color: #fff; }
+    .header-page-cn .nav-link:hover {
+      color: #fff; }
+      .header-page-cn .nav-link:hover:before {
+        width: 100%; }
+  .header-page-cn .show > .nav-link,
+  .header-page-cn .active > .nav-link,
+  .header-page-cn .nav-link.show,
+  .header-page-cn .nav-link.active {
+    color: #fff; }
+  .header-page-cn .navbar-brand {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600; }
+  .header-page-cn .navbar-toggler span {
+    background-color: #1B1B1B; }
+  .header-page-cn .navbar-nav .dropdown-item.show .dropdown-menu,
+  .header-page-cn .dropdown.show .dropdown-menu,
+  .header-page-cn .dropdown-btn.show .dropdown-menu {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    visibility: visible !important; }
+  .header-page-cn .dropdown-menu {
+    margin: 1.12rem 0 0;
+    border-radius: 0; }
+    .header-page-cn .dropdown-menu .dropdown-item {
+      padding: .7rem 1.7rem;
+      transition: all 500ms ease; }
+      .header-page-cn .dropdown-menu .dropdown-item:hover {
+        background-color: #0078ff;
+        color: #fff;
+        transition: all 500ms ease; }
+    .header-page-cn .dropdown-menu .dropdown-item.active {
+      background-color: #0078ff; }
+  .header-page-cn .navbar-toggler {
+    position: relative; }
+    .header-page-cn .navbar-toggler:focus, .header-page-cn .navbar-toggler:active {
+      outline: 0; }
+    .header-page-cn .navbar-toggler span {
+      display: block;
+      background-color: #fff;
+      height: 3px;
+      width: 25px;
+      margin-top: 4px;
+      margin-bottom: 4px;
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      left: 0;
+      opacity: 1; }
+      .header-page-cn .navbar-toggler span:nth-child(1), .header-page-cn .navbar-toggler span:nth-child(3) {
+        transition: -webkit-transform .35s ease-in-out;
+        transition: transform .35s ease-in-out;
+        transition: transform .35s ease-in-out, -webkit-transform .35s ease-in-out; }
+  .header-page-cn:not(.collapsed) span:nth-child(1) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.9; }
+  .header-page-cn:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent; }
+  .header-page-cn:not(.collapsed) span:nth-child(3) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    opacity: 0.9; }
+
+body .header-page-cn {
+  background-color: #000; }
+
+.text-red {
+  color: red; }
+
+.text-blue {
+  color: #007bff; }
+
+.pointer {
+  cursor: pointer; }
+
+.ace_editor {
+  height: 300px; }
+
+.mb-5 {
+  margin-bottom: 5px; }
+
+.mb-10 {
+  margin-bottom: 10px; }
+
+.mb-15 {
+  margin-bottom: 15px; }
+
+.mb-20 {
+  margin-bottom: 20px; }
+
+.mb-25 {
+  margin-bottom: 25px; }
+
+.mb-30 {
+  margin-bottom: 30px; }
+
+.mr-10 {
+  margin-right: 10px; }
+
+.m-t-110 {
+  margin-top: 110px; }
+
+.m-t-225 {
+  margin-top: 225px; }

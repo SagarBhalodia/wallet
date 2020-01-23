@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <title>{{title}}</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/custom-libs/ionicons-master/css/ionicons.min.css">
+        <link rel="stylesheet" href="/node_modules/summernote/dist/summernote-bs4.css">
+        <link rel="stylesheet" href="/node_modules/summernote/dist/summernote-bs4.css">
+        <link rel="stylesheet" href="/node_modules/ng-tags-input/build/ng-tags-input.bootstrap.min.css">
+        <link rel="stylesheet" href="/css/global.css">
+
+        <!-- Javascripts -->
+        <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/node_modules/summernote/dist/summernote-bs4.min.js"></script>
+        <script type="text/javascript" src="/node_modules/ace-builds/src-min-noconflict/ace.js"></script>
+        <script type="text/javascript" src="/node_modules/ace-builds/theme-monokai.js"></script>
+        <script src="custom-libs/typed/typed.min.js"></script>
+
+
+        <script type="text/javascript" src="/node_modules/angular/angular.min.js"></script>
+        <script type="text/javascript" src="/node_modules/angular-ui-ace/src/ui-ace.js"></script>
+        <script type="text/javascript" src="/node_modules/angular-summernote/dist/angular-summernote.min.js"></script>
+
+        
+        
+        <script type="text/javascript" src="/node_modules/mode-javascript.js"></script>
+
+        <script type="text/javascript" src="/node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script type="text/javascript" src="/node_modules/ng-tags-input/build/ng-tags-input.min.js"></script>
+        <script type="text/javascript" src="/route/route.js"></script>
+        <script type="text/javascript" src="/controller/wallet.js"></script>
+        <script type="text/javascript" src="/controller/addAmount.js"></script>
+    </head>
+
+    <body>
+        <div>
+            <nav class="navbar navbar-expand-md fixed-top header-page-cn" id="mainNav">
+                <div class="container">
+                    <a class="navbar-brand js-scroll" href="#page-top">
+                        <img src="/uplode/image/wallet.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                    aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll active" href="#!/add-amount">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="#service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <!-- body -->
+        <div >
+            <div ui-view class="main-container"></div>
+        </div>
+    </div>
+</body>
+</html>
